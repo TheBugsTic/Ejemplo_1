@@ -1,3 +1,17 @@
+CREA UN NUEVO REPOSITORIO EN LINEA DE COMANDO
+echo "#NOMBRE_DEL_PROYECTO" >> README.md 
+git init 
+git add README.md 
+git commit -m "MENSAJE" 
+git branch -M main 
+git remote add origin LINK_RUTA
+git push - u origin main
+
+INSERTAR UN REPOSITORO EXISTENTE DESDE LA LINEA DE COMANDO
+git remote add origin https://github.com/TheBugsTic/ProyectoFinal.git
+git branch -M main
+git push -u origin main
+
 INICIALIZAR EN GIT
 git init
 
@@ -16,7 +30,8 @@ AGREGAR UN COMMIT
 git commit -m "nombre-del-comit"
 
 SINCRONIZANDO CON REPOSITORIO REMOTO
-git push origin master
+git push origin main
+git push -v origin main
 
 SINCRONIZACIÓN DE REPOSITORIO REMOTO A LOCAL
 git pull origin xxx
